@@ -1,0 +1,53 @@
+.jumbotron-container
+{
+    @include componentStyling ( 100%, 110vh, null, null, 1em, null );
+    position: relative;
+    box-sizing: border-box;
+}
+
+.jumbotron
+{
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.jumbotron-image
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0px 0px;
+}
+
+.jumbotron-title-container
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 35%;
+    box-sizing: border-box;
+}
+
+.jumbotron-title
+{
+    @include textStyling ( null, 5em, 700, 10px, uppercase, null, null, $primary-color );
+    margin: 0;
+    margin-bottom: .2em;
+}
+
+.jumbotron-sub-title
+{
+    display: block;
+    margin: 0;
+    @include textStyling ( null, 1em, 400, 1px, uppercase, null, null, $primary-color );
+
+    &::after
+    {
+        @include beforeAfterStyling ( null, 30%, 5px, 25px auto, $secondary-color );
+    }
+    
+}

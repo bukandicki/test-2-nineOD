@@ -1,0 +1,359 @@
+@media (max-width: 575.98px)
+{
+    .navbar-nav
+    {
+        display: none;
+    }
+
+    .navbar-collapse-button
+    {
+        display: block;
+    }
+
+    .jumbotron-title
+    {
+        margin: 0;
+        margin-bottom: .2em;
+        font-size: 2.5em;
+        letter-spacing: 0;
+    }
+
+    .jumbotron-image {
+        width: 150%;
+        height: 150%;
+        object-fit: cover;
+        object-position: 10px 0px;
+    }
+
+    .jumbotron-sub-title
+    {
+        display: block;
+        margin: 0;
+        font-size: 1.5em;
+    }
+
+    .articles
+    {
+        height: auto;
+        padding-bottom: 5em;
+    }
+
+    .articles-wrapper
+    {
+        width: 85%;
+        flex-direction: column;
+    }
+
+    .articles-card
+    {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 1.2em;
+    }
+
+    .about-container {
+        height: auto;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .about-content {
+        padding: 6em 0 6em 0;
+        flex-direction: column;
+        justify-content: center;
+
+        p {
+            width: 75%;
+            line-height: 25px;
+            margin: 0;
+        }
+    }
+
+    .about-image {
+        width: 100%;
+        height: 350px;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .newsletter-form {
+        input {
+            width: 280px;
+            display: block;
+            margin: 1.5em auto;
+            padding: 1.6em 1.2em;
+        }
+    }
+
+    .footer-navbar
+    {
+        display: block !important;
+        margin-bottom: 2em;
+        
+        li
+        {
+            text-align: center;
+            display: block;
+            margin: 0;
+            margin-bottom: 2em;
+        }
+    }
+
+    .footer {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px)
+{
+    .navbar-nav
+    {
+        display: none;
+    }
+
+    .navbar-collapse-button
+    {
+        display: block;
+    }
+
+    .jumbotron-image {
+        width: 150%;
+        height: 150%;
+        object-fit: cover;
+        object-position: 10px 0px;
+    }
+
+    .articles
+    {
+        height: auto;
+        padding-bottom: 5em;
+    }
+
+    .articles-wrapper
+    {
+        width: 95%;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .articles-card
+    {
+        width: 45%;
+        margin: 0 .6em 0 .6em;
+        margin: auto;
+    }
+
+    .articles-image
+    {
+        width: 100%;
+        height: 230px;
+        margin: 0;
+
+        img
+        {
+            width: 150%;
+        }
+    }
+
+    .about-container
+    {
+        height: auto;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .about-content
+    {
+        padding: 6em 0 6em 0;
+        flex-direction: column;
+        justify-content: center;
+
+        p
+        {
+            width: 75%;
+            line-height: 25px;
+            margin: 0;
+            text-align: justify;
+        }
+    }
+
+    .about-image
+    {
+        width: 100%;
+        height: 350px;
+
+        img
+        {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .footer-navbar
+    {
+        display: block !important;
+        margin-bottom: 2em;
+
+        li 
+        {
+            text-align: center;
+            display: block;
+            margin: 0;
+            margin-bottom: 2em;
+        }
+    }
+
+    .footer
+    {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px)
+{
+    .articles
+    {
+        height: auto;
+        padding-bottom: 5em;
+    }
+    
+    .articles-wrapper
+    {
+        width: 95%;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .articles-card
+    {
+        width: 45%;
+        margin: 0 .6em 0 .6em;
+        margin: auto;
+        margin-bottom: 1.2em;
+    }
+
+    .jumbotron-image {
+        width: 150%;
+        height: 150%;
+        object-fit: cover;
+        object-position: 10px 0px;
+    }
+
+    .about-container
+    {
+        height: auto;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .about-content 
+    {
+        padding: 6em 0 6em 0;
+        flex-direction: column;
+        justify-content: center;
+
+            p 
+            {
+                width: 75%;
+                line-height: 25px;
+                margin: 0;
+                text-align: justify;
+            }
+    }
+
+    .about-image 
+    {
+        width: 100%;
+        height: 400px;
+
+        img 
+        {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px)
+{
+
+    .jumbotron-image {
+        width: 150%;
+        height: 150%;
+        object-fit: cover;
+        object-position: 10px 0px;
+    }
+    
+    .articles 
+    {
+        height: auto;
+        padding-bottom: 5em;
+    }
+
+    .articles-wrapper 
+    {
+        width: 95%;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .articles-card 
+    {
+        width: 40%;
+        margin: 0 1.2em 0 1.2em;
+        margin-bottom: 1.2em;
+    }
+
+    .about-container 
+    {
+        height: auto;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .about-content 
+    {
+        padding: 6em 0 6em 0;
+        flex-direction: column;
+        justify-content: center;
+
+        p 
+        {
+            width: 75%;
+            line-height: 25px;
+            margin: 0;
+            text-align: justify;
+        }
+    }
+
+    .about-image 
+    {
+        width: 100%;
+        height: 400px;
+
+        img 
+        {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
+
+@media (min-width: 1200px)
+{
+
+}

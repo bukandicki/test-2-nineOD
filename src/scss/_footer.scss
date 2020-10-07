@@ -1,0 +1,47 @@
+.footer
+{
+    @include componentStyling ( 100%, null, flex, null, 4em 2em, #fff)
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+
+.footer-navbar
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li 
+    {
+        display: inline-flex;
+        margin-left: 1.7em;
+
+        a 
+        {
+            @include textStyling ( null, null, null, 1px, uppercase, null, null, $primary-color );
+            text-decoration: none;
+        }
+    }
+}
+
+.footer-social-media
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+        li
+        {
+            @include componentStyling ( 30px, 30px, inline-flex, 0 1em, null, $primary-color );
+            border-radius: 50%;
+            align-items: center;
+            justify-content: center;
+                img
+                {
+                    height: 15px;
+                    filter: invert(100%);
+                }
+        }
+}

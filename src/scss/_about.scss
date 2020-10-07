@@ -1,0 +1,48 @@
+.about
+{
+    width: 100%;
+    margin: 0;
+}
+
+.about-container
+{
+    @include componentStyling ( 100%, 80vh, flex, null, null, #fff );
+}
+
+.about-content
+{
+    @include componentStyling ( 100%, 100%, flex, null, null, #fff );
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: $primary-color;
+        h3
+        {   
+            @include textStyling ( null, null, 400, 2px, uppercase, null , null, $primary-color );
+            margin: 0 0 2.8em 0;
+            display: block;
+            
+            &::after
+            {
+                @include beforeAfterStyling ( null, 40%, 2px, 10px auto, $primary-color );
+            }
+        }
+
+        p
+        {
+
+            @include textStyling ( null, null, null, null, null, justify, 25px, null );
+            width: 60%;
+        }
+}
+
+.about-image
+{
+    @include componentStyling ( 100%, 100%, null, null, null, null );
+    
+    img
+    {
+    @include componentStyling ( 100%, 100%, null, null, null, null );
+        object-fit: cover;
+    }
+}

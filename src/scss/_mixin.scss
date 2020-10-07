@@ -1,0 +1,42 @@
+@mixin textStyling ($font-family, $font-size, $font-weight, $font-letter-spacing, $font-text-transform, $font-text-align, $font-line-height, $font-color) {
+    font-family: $font-family !important;
+    font-size: $font-size;
+    font-weight: $font-weight;
+    letter-spacing: $font-letter-spacing;
+    text-transform: $font-text-transform;
+    text-align: $font-text-align;
+    line-height: $font-line-height;
+    color: $font-color !important;
+}
+
+@mixin borderAndBoxShadowStyling ($component-border, $component-box-shadow) {
+    border: $component-border;
+    box-shadow: $component-box-shadow;
+}
+
+@mixin componentPosition ($component-position, $component-position-top, $component-position-right, $component-position-bottom, $component-position-left) {
+    position: $component-position;
+    top: $component-position-top;
+    right: $component-position-right;
+    bottom: $component-position-bottom;
+    left: $component-position-left;
+}
+
+@mixin componentStyling ($component-width, $component-height, $component-display, $component-margin, $component-padding, $component-background) {
+    width: $component-width;
+    height: $component-height;
+    display: $component-display;
+    margin: $component-margin;
+    padding: $component-padding;
+    background-color: $component-background;
+}
+
+@mixin beforeAfterStyling ($bf-position, $bf-width, $bf-height, $bf-margin, $bf-background) {
+    content: '';
+    display: block;
+    position: $bf-position;
+    width: $bf-width;
+    height: $bf-height;
+    margin: $bf-margin;
+    background-color: $bf-background;
+}

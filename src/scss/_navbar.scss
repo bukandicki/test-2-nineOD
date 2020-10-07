@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+}
+
+.navbar
+{
+    width: 100%;
+    @include componentPosition ( absolute, 0, null, null, 0 );
+    display: flex;
+    align-items: center;
+    padding: 2.8em 2.8em;
+    margin: 0;
+    z-index: 2;
+    box-sizing: border-box;
+}
+
+.navbar-logo
+{
+    margin-right: auto;
+    font-size: 1.5em;
+    font-weight: 900;
+    color: $primary-color;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.navbar-nav
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    li
+    {
+        display: inline-flex;
+        margin-left: 1.7em;
+        a
+        {
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: $primary-color;
+        }            
+    }
+}
+
+.navbar-collapse-button
+{
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background: transparent;
+    display: none;
+
+        img
+        {
+            height: 20px;
+        }
+}
+
+.nav__bordered
+{
+    padding: .7em 1.5em;
+    border: solid 2px $primary-color;
+}

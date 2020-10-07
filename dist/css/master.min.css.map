@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AEAA,AAAA,OAAO,AACP,CACI,KAAK,CAAE,IAAI,CACX,OAAO,CAAE,IAAI,CAChB",
+    "sources": [
+        "../../src/scss/master.scss",
+        "../../src/scss/_variable.scss",
+        "../../src/scss/_navbar.scss"
+    ],
+    "names": [],
+    "file": "master.min.css"
+}
